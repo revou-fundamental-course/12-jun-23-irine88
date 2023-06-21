@@ -1,0 +1,107 @@
+/* MARK: DEFAULT */
+html {
+    max-width: fit-content;
+    min-width: fit-content;
+}
+header {
+    background-color: #5A96E3;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 4px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+label {
+    color: #5A96E3;
+    font-weight: bold;
+}
+button {
+    background-color: #5A96E3;
+    color: white;
+    padding: 10px 20px;
+    margin: 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 20px 5px rgba(0,0,0,0.06);
+}
+button:hover {
+    background-color: #307bdf;
+}
+button:active {
+    transform: translatey(1px);
+    background-color: #005fdb;
+}
+
+/* MARK: ID */
+
+#inputfield {
+    display: flex;
+    flex-direction: column;
+    outline: none;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 3px rgba(0,0,0,0.06);
+    border: solid lightgrey;
+    border-width: 2px;
+    padding: 10px;
+    margin: 5px;
+}
+#inputfield:focus {
+    border: solid grey;
+}
+#how {
+    background-color: white;
+    color: darkgrey;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 4px;
+    display: block;
+    border: grey 2px solid;
+    height: 25px;
+    vertical-align: middle;
+    
+}
+
+/* MARK: CLASS */
+.parent {
+    display: flex;
+    flex-flow: row wrap; 
+    align-self: center;
+    flex-direction: row;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.child2 {
+    display: flex;
+    flex-direction: column;
+    
+}
+.inputbuttonsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 25px;
+    flex-grow: 1;
+    
+}
+/* .formula {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    text-align: left;
+    font-weight: bolder;
+} */
+
+.formula {
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+    color: rgb(94, 94, 94);
+    display: block;
+    background-color: rgb(231, 231, 231);
+}
