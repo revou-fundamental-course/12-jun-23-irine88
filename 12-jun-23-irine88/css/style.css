@@ -1,7 +1,7 @@
 /* MARK: DEFAULT */
 html {
-    max-width: fit-content;
-    min-width: fit-content;
+    max-width: 700px;
+    min-width: 700px;
 }
 header {
     background-color: #5A96E3;
@@ -37,19 +37,20 @@ button:active {
 
 /* MARK: ID */
 
-#inputfield {
+.inputfield {
     display: flex;
-    flex-direction: column;
-    outline: none;
+    flex-direction: row;
+    
+    /* outline: none; */
     font-size: 18px;
     border-radius: 10px;
-    box-shadow: 0 0 15px 3px rgba(0,0,0,0.06);
-    border: solid lightgrey;
-    border-width: 2px;
+    /* box-shadow: 0 0 15px 3px rgba(0,0,0,0.06); */
+    /* border: solid lightgrey; */
+    /* border-width: 2px; */
     padding: 10px;
     margin: 5px;
 }
-#inputfield:focus {
+.inputfield:focus {
     border: solid grey;
 }
 #how {
