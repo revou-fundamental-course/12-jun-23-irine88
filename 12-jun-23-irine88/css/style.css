@@ -62,7 +62,6 @@ button:active {
     display: block;
     border: grey 2px solid;
     height: 25px;
-    vertical-align: middle;
     
 }
 
